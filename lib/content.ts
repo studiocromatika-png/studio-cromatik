@@ -101,11 +101,11 @@ export const contact = {
   title: "Hablemos de tu próximo proyecto.",
   intro:
     "Escríbenos y te contactamos en menos de 48 horas. El formulario aún no está conectado — por ahora usa estos datos directos.",
-  email: "hola@studiocromatik.com",
-  phone: "+52 000 000 0000",
+  email: "studiocromatika@gmail.com",
+  phone: "+52 1 772 106 7763",
   location: "Querétaro, México",
   socials: [
-    { label: "Instagram", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/cromatik_design/" },
     { label: "LinkedIn", href: "#" },
     { label: "Behance", href: "#" },
   ],
