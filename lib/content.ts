@@ -80,24 +80,24 @@ export const work = {
   intro: "Reemplaza estos espacios con tus propios clientes y testimonios.",
   items: [
     {
-      name: "Cliente uno",
+      name: "Moscati",
       quote:
         "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Rol o industria",
+      role: "Hospital",
       image: "/images/cliente-1.jpg",
     },
     {
-      name: "Cliente dos",
+      name: "Ebor",
       quote:
         "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Rol o industria",
+      role: "Hospital",
       image: "/images/cliente-2.jpg",
     },
     {
-      name: "Cliente tres",
+      name: "Dr Federico Baena Q",
       quote:
         "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Rol o industria",
+      role: "Dentista",
       image: "/images/cliente-3.jpg",
     },
   ],
