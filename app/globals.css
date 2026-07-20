@@ -34,6 +34,14 @@
   .eyebrow {
     @apply font-mono text-xs uppercase tracking-widest2 text-ink/60;
   }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
