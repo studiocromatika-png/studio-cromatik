@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-ink/10;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: #d4d91f;
+    color: #2b2b26;
+  }
+
+  a,
+  button {
+    @apply transition-colors duration-200;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #446452;
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-widest2 text-ink/60;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
