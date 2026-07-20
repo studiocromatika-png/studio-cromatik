@@ -93,6 +93,13 @@ export const work = {
       role: "Hospital",
       image: "/images/cliente-2.jpg",
     },
+	{
+      name: "FisioVi",
+      quote:
+        "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
+      role: "Fisioterapeuta",
+      image: "/images/cliente-4.jpg",
+    },
     {
       name: "Dr Federico Baena Q",
       quote:
