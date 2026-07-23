@@ -77,7 +77,6 @@ export const about = {
 export const work = {
   eyebrow: "Clientes",
   title: "Con quién hemos trabajado",
-  intro: "Reemplaza estos espacios con tus propios clientes y testimonios.",
   items: [
     {
       name: "Moscati",
