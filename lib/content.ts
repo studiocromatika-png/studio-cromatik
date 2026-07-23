@@ -68,9 +68,9 @@ export const about = {
     "Trabajamos con marcas personales, negocios y equipos que quieren verse tan cuidados como el trabajo que hacen — sin perder tiempo en procesos innecesarios.",
   ],
   stats: [
-    { value: "+00", label: "Proyectos entregados" },
-    { value: "+00", label: "Marcas acompañadas" },
-    { value: "00", label: "Años de experiencia" },
+    { value: "+30", label: "Proyectos entregados" },
+    { value: "+10", label: "Marcas acompañadas" },
+    { value: "05", label: "Años de experiencia" },
   ],
 };
 
@@ -101,7 +101,7 @@ export const work = {
       image: "/images/cliente-4.jpg",
     },
     {
-      name: "Dr Federico Baena Q",
+      name: "Dr Federico Baena Q✅",
       quote:
         "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
       role: "Dentista",
@@ -120,7 +120,7 @@ export const contact = {
   location: "Querétaro, México",
   socials: [
     { label: "Instagram", href: "https://www.instagram.com/cromatik_design/" },
-    { label: "Behance", href: "#" },
+    { label: "Facebook", href: "https://www.facebook.com/cromatikstudio" },
   ],
 };
 
