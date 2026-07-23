@@ -16,9 +16,9 @@ export const nav = {
 
 export const hero = {
   eyebrow: "Studio de diseño",
-  title: "Creamos marcas con intención.",
+  title: "Creando marcas con intención.",
   subtitle:
-    "Somo Studio Cromatik: transformamos ideas en estrategias visuales que impulsan marcas. Combinamos creatividad, diseño y estrategia para construir identidades auténticas, coherentes y memorables que conectan con las personas y acompañan el crecimiento de cada negocio.",
+    "Somos Studio Cromatik: transformamos ideas en estrategias visuales que impulsan marcas. Combinamos creatividad, diseño y estrategia para construir identidades auténticas, coherentes y memorables que conectan con las personas y acompañan el crecimiento de cada negocio.",
   ctaPrimary: { label: "Ver servicios", href: "#servicios" },
   ctaSecondary: { label: "Escríbenos", href: "#contacto" },
 };
