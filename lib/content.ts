@@ -16,9 +16,9 @@ export const nav = {
 
 export const hero = {
   eyebrow: "Studio de diseño",
-  title: "Creando marcas con intención.",
+  title: "Diseño simple, con carácter.",
   subtitle:
-    "Somos Studio Cromatik: transformamos ideas en estrategias visuales que impulsan marcas. Combinamos creatividad, diseño y estrategia para construir identidades auténticas, coherentes y memorables que conectan con las personas y acompañan el crecimiento de cada negocio.",
+    "Somos Studio Cromatik: creamos identidades de marca, sitios web y piezas visuales que se sienten claras, cuidadas y memorables. Sin ruido, con intención.",
   ctaPrimary: { label: "Ver servicios", href: "#servicios" },
   ctaSecondary: { label: "Escríbenos", href: "#contacto" },
 };
@@ -27,33 +27,33 @@ export const services = {
   eyebrow: "Qué hacemos",
   title: "Servicios",
   intro:
-    "Cada proyecto comienza con una idea. Nosotros la transformamos en una marca con identidad, estrategia y una comunicación visual que conecta.",
+    "Trabajamos de la mano con cada cliente para construir marcas simples y consistentes, del concepto a la ejecución.",
   items: [
     {
-      title: "Branding e identidad visual",
+      title: "Identidad de marca",
       description:
-        "Creamos marcas con personalidad y propósito. Diseñamos identidades visuales que reflejan la esencia de tu negocio y construyen una presencia coherente, memorable y preparada para crecer.",
+        "Logotipo, sistema visual, paleta de color y lineamientos para que tu marca se vea igual de bien en cualquier lugar.",
       color: "pine",
       image: "/images/servicio-identidad.jpg",
     },
     {
       title: "Diseño web",
       description:
-        "Sitios web modernos, funcionales y a la medida, diseñados para ofrecer una gran experiencia y ayudar a que tu marca siga creciendo.",
+        "Sitios rápidos, simples y a la medida — pensados para convertir visitantes en clientes, no solo para verse bien.",
       color: "lilac",
       image: "/images/servicio-web.jpg",
     },
     {
-      title: "Comunicación visual",
+      title: "Dirección de arte",
       description:
-        "Aplicamos la identidad de tu marca en piezas impresas y digitales. Diseñamos materiales que comunican con claridad, fortalecen tu imagen y mantienen una presencia consistente en cualquier formato.",
+        "Fotografía, contenido y campañas con una dirección visual clara, consistente con la identidad de la marca.",
       color: "chartreuse",
       image: "/images/servicio-direccion.jpg",
     },
     {
-      title: "Redes sociales",
+      title: "Redes y contenido",
       description:
-        "Creamos contenido visual y estrategias para redes sociales que fortalecen tu marca, conectan con tu audiencia y mantienen una comunicación auténtica y consistente.",
+        "Sistemas de contenido para redes sociales que mantienen la marca reconocible publicación tras publicación.",
       color: "blush",
       image: "/images/servicio-contenido.jpg",
     },
@@ -62,50 +62,43 @@ export const services = {
 
 export const about = {
   eyebrow: "El estudio",
-  title: "Diseñamos como si cada marca fuera nuestra.",
+  title: "Menos ruido, más diseño.",
   paragraphs: [
-    "En Studio Cromatik trabajamos de forma cercana, creativa y estratégica. Nos involucramos en cada proyecto para construir identidades auténticas que reflejen la esencia de cada negocio y lo ayuden a crecer.",
-    "Creemos en los procesos claros, las ideas bien pensadas y el diseño que realmente aporta valor. Nos apasiona ayudar a emprendedores, empresas y marcas personales a construir una identidad visual sólida y coherente.",
+    "Studio Cromatik nació de una idea simple: el buen diseño no necesita ser complicado para ser memorable. Creemos en la claridad, en el color con propósito y en los sistemas visuales que envejecen bien.",
+    "Trabajamos con marcas personales, negocios y equipos que quieren verse tan cuidados como el trabajo que hacen — sin perder tiempo en procesos innecesarios.",
   ],
   stats: [
-    { value: "+30", label: "Proyectos entregados" },
-    { value: "+10", label: "Marcas acompañadas" },
-    { value: "05", label: "Años de experiencia" },
+    { value: "+00", label: "Proyectos entregados" },
+    { value: "+00", label: "Marcas acompañadas" },
+    { value: "00", label: "Años de experiencia" },
   ],
 };
 
 export const work = {
   eyebrow: "Clientes",
   title: "Con quién hemos trabajado",
-  intro: "",
+  intro:
+    "Reemplaza estas fotos con los trabajos que has hecho para cada cliente.",
   items: [
     {
-      name: "Moscati",
-      quote:
-        "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Hospital",
-      image: "/images/cliente-1.jpg",
+      client: "Cliente uno",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-1.jpg",
     },
     {
-      name: "Ebor",
-      quote:
-        "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Hospital",
-      image: "/images/cliente-2.jpg",
-    },
-	{
-      name: "FisioVi",
-      quote:
-        "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Fisioterapeuta",
-      image: "/images/cliente-4.jpg",
+      client: "Cliente dos",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-2.jpg",
     },
     {
-      name: "Dr Federico Baena Q✅",
-      quote:
-        "Aquí va un testimonio corto del cliente sobre el resultado del proyecto.",
-      role: "Dentista",
-      image: "/images/cliente-3.jpg",
+      client: "Cliente tres",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-3.jpg",
+    },
+    {
+      client: "Cliente cuatro",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-4.jpg",
     },
   ],
 };
@@ -114,13 +107,14 @@ export const contact = {
   eyebrow: "Contacto",
   title: "Hablemos de tu próximo proyecto.",
   intro:
-    "Ya sea que estés empezando desde cero o buscando renovar tu marca, estamos listos para crear algo increíble contigo.",
-  email: "studiocromatika@gmail.com",
-  phone: "+52 1 772 106 7763",
+    "Escríbenos y te contactamos en menos de 48 horas. El formulario aún no está conectado — por ahora usa estos datos directos.",
+  email: "hola@studiocromatik.com",
+  phone: "+52 000 000 0000",
   location: "Querétaro, México",
   socials: [
-    { label: "Instagram", href: "https://www.instagram.com/cromatik_design/" },
-    { label: "Facebook", href: "https://www.facebook.com/cromatikstudio" },
+    { label: "Instagram", href: "#" },
+    { label: "LinkedIn", href: "#" },
+    { label: "Behance", href: "#" },
   ],
 };
 
