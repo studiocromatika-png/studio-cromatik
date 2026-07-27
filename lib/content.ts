@@ -95,10 +95,50 @@ export const work = {
       project: "Nombre del proyecto",
       image: "/images/trabajo-3.jpg",
     },
-    {
+	{
       client: "Cliente cuatro",
       project: "Nombre del proyecto",
       image: "/images/trabajo-4.jpg",
+    },
+	{
+      client: "Cliente cinco",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-5.jpg",
+    },
+	{
+      client: "Cliente seis",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-6.jpg",
+    },
+	{
+      client: "Cliente siete",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-7.jpg",
+    },
+	{
+      client: "Cliente ocho",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-8.jpg",
+    },
+	{
+      client: "Cliente nueve",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-9.jpg",
+    },
+	{
+      client: "Cliente diez",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-10.jpg",
+    },
+	{
+      client: "Cliente once",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-11.jpg",
+    },
+	{
+      client: "Cliente doce",
+      project: "Nombre del proyecto",
+      image: "/images/trabajo-12.jpg",
     },
   ],
 };
