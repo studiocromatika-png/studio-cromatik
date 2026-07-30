@@ -68,9 +68,9 @@ export const about = {
     "Trabajamos con marcas personales, negocios y equipos que quieren verse tan cuidados como el trabajo que hacen — sin perder tiempo en procesos innecesarios.",
   ],
   stats: [
-    { value: "+00", label: "Proyectos entregados" },
-    { value: "+00", label: "Marcas acompañadas" },
-    { value: "00", label: "Años de experiencia" },
+    { value: "+20", label: "Proyectos entregados" },
+    { value: "+10", label: "Marcas acompañadas" },
+    { value: "05", label: "Años de experiencia" },
   ],
 };
 
@@ -78,7 +78,7 @@ export const work = {
   eyebrow: "Clientes",
   title: "Con quién hemos trabajado",
   intro:
-    "#",
+    "",
   items: [
     {
       client: "Ami Estilo",
@@ -149,12 +149,11 @@ export const contact = {
   intro:
     "Ya sea que estés empezando desde cero o buscando renovar tu marca, estamos listos para crear algo increíble contigo.",
   email: "studiocromatika@gmail.com",
-  phone: "+52 772 106",
+  phone: "+52 772 106 7763",
   location: "Querétaro, México",
   socials: [
-    { label: "Instagram", href: "#" },
-    { label: "LinkedIn", href: "#" },
-    { label: "Behance", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/cromatik_design/" },
+    { label: "facebook", href: "https://www.facebook.com/cromatikstudio" },
   ],
 };
 
