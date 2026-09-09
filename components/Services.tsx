@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { services } from "@/lib/content";
+import ServiceImageCarousel from "./ServiceImageCarousel";
 
 const COLOR_MAP: Record<string, { bg: string; text: string }> = {
   pine: { bg: "bg-pine", text: "text-paper" },
@@ -26,14 +26,7 @@ export default function Services() {
                 key={item.title}
                 className={`${colors.bg} ${colors.text} overflow-hidden rounded-3xl`}
               >
-                <div className="relative aspect-[4/3]">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
+                <ServiceImageCarousel images={item.images} alt={item.title} />
                 <div className="p-8 md:p-10">
                   <span className="font-mono text-xs uppercase tracking-widest2 opacity-60">
                     {String(i + 1).padStart(2, "0")}

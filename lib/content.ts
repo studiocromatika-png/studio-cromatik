@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// Todo el texto del sitio vive aquí. Edita estos valores y el
-// contenido se actualiza en toda la página, sin tocar el diseño.
-// ─────────────────────────────────────────────────────────────
-
 export const nav = {
   logoAlt: "Studio Cromatik",
   links: [
@@ -34,28 +29,44 @@ export const services = {
       description:
         "Creamos marcas con personalidad y propósito. Diseñamos identidades visuales que reflejan la esencia de tu negocio y construyen una presencia coherente, memorable y preparada para crecer.",
       color: "pine",
-      image: "/images/servicio-identidad.jpg",
+      images: [
+        "/images/servicio-identidad-1.jpg",
+        "/images/servicio-identidad-2.jpg",
+        "/images/servicio-identidad-3.jpg",
+      ],
     },
     {
       title: "Diseño web",
       description:
         "Sitios web modernos, funcionales y a la medida, diseñados para ofrecer una gran experiencia y ayudar a que tu marca siga creciendo.",
       color: "lilac",
-      image: "/images/servicio-web.jpg",
+      images: [
+        "/images/servicio-web-1.jpg",
+        "/images/servicio-web-2.jpg",
+        "/images/servicio-web-3.jpg",
+      ],
     },
     {
       title: "Comunicación visual",
       description:
         "Aplicamos la identidad de tu marca en piezas impresas y digitales. Diseñamos materiales que comunican con claridad, fortalecen tu imagen y mantienen una presencia consistente en cualquier formato.",
       color: "chartreuse",
-      image: "/images/servicio-direccion.jpg",
+      images: [
+        "/images/servicio-direccion-1.jpg",
+        "/images/servicio-direccion-2.jpg",
+        "/images/servicio-direccion-3.jpg",
+      ],
     },
     {
       title: "Redes sociales",
       description:
         "Creamos contenido visual y estrategias para redes sociales que fortalecen tu marca, conectan con tu audiencia y mantienen una comunicación auténtica y consistente.",
       color: "blush",
-      image: "/images/servicio-contenido.jpg",
+      images: [
+        "/images/servicio-contenido-1.jpg",
+        "/images/servicio-contenido-2.jpg",
+        "/images/servicio-contenido-3.jpg",
+      ],
     },
   ],
 };
