@@ -68,9 +68,9 @@ export const about = {
     "Trabajamos con marcas personales, negocios y equipos que quieren verse tan cuidados como el trabajo que hacen — sin perder tiempo en procesos innecesarios.",
   ],
   stats: [
-    { value: "+20", label: "Proyectos entregados" },
+    { value: "+30", label: "Proyectos entregados" },
     { value: "+10", label: "Marcas acompañadas" },
-    { value: "05", label: "Años de experiencia" },
+    { value: "+5 de", label: "Años de experiencia" },
   ],
 };
 
@@ -82,63 +82,38 @@ export const work = {
   items: [
     {
       client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      project: "#",
       image: "/images/trabajo-1.jpg",
     },
     {
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "DC Arquitectura & Diseño",
+      project: "#",
       image: "/images/trabajo-2.jpg",
     },
     {
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "Meraki Nails",
+      project: "#",
       image: "/images/trabajo-3.jpg",
     },
 	{
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "Alejandro Alvarez",
+      project: "#",
       image: "/images/trabajo-4.jpg",
     },
 	{
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "De la A a la Z",
+      project: "#",
       image: "/images/trabajo-5.jpg",
     },
 	{
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "Emi Consultores",
+      project: "#",
       image: "/images/trabajo-6.jpg",
     },
 	{
-      client: "Ami Estilo",
-      project: "Nombre del proyecto",
+      client: "Social Media",
+      project: "#",
       image: "/images/trabajo-7.jpg",
-    },
-	{
-      client: "DC Arquitectura & Diseño",
-      project: "Nombre del proyecto",
-      image: "/images/trabajo-8.jpg",
-    },
-	{
-      client: "DC Arquitectura & Diseño",
-      project: "Nombre del proyecto",
-      image: "/images/trabajo-9.jpg",
-    },
-	{
-      client: "DC Arquitectura & Diseño",
-      project: "Nombre del proyecto",
-      image: "/images/trabajo-10.jpg",
-    },
-	{
-      client: "DC Arquitectura & Diseño",
-      project: "Nombre del proyecto",
-      image: "/images/trabajo-11.jpg",
-    },
-	{
-      client: "DC Arquitectura & Diseño",
-      project: "Nombre del proyecto",
-      image: "/images/trabajo-12.jpg",
     },
   ],
 };
